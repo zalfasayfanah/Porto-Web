@@ -17,35 +17,44 @@ export function ProjectCard({ project, onViewDetails }: ProjectCardProps) {
   return (
     <div className="group rounded-2xl bg-white border border-slate-200/90 hover:border-brand-300 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden">
       <div>
-        {/* Project Thumbnail / Header Graphic */}
-        <div className="relative w-full h-48 bg-gradient-to-br from-slate-800 via-primary to-slate-900 flex flex-col items-center justify-center p-6 text-white overflow-hidden">
-          {/* Subtle grid pattern background */}
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
-          
-          <div className="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 shadow-inner">
-            <Laptop className="w-7 h-7 text-sky-300" />
-          </div>
-
-          <h4 className="relative z-10 font-heading font-bold text-center text-lg text-white px-4 line-clamp-1">
-            {project.name}
-          </h4>
-          <span className="relative z-10 text-xs text-slate-300 mt-1">
-            {project.role}
-          </span>
+        {/* Project Thumbnail / Screenshot Banner */}
+        <div
+          className="relative w-full h-52 bg-slate-900 overflow-hidden cursor-pointer"
+          onClick={() => onViewDetails(project)}
+        >
+          <img
+            src={project.thumbnailUrl}
+            alt={project.name}
+            className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = "/images/projects/placeholder.svg";
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent pointer-events-none" />
 
           {/* Badges Overlay */}
-          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-            <Badge variant="accent" className="bg-sky-500/90 text-white border-none shadow-sm">
+          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
+            <Badge variant="accent" className="bg-sky-600/90 text-white border-none shadow-md backdrop-blur-sm">
               {project.category}
             </Badge>
           </div>
 
           {project.featured && (
-            <div className="absolute top-3 right-3 inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-500/90 text-white text-[11px] font-semibold shadow-sm backdrop-blur-sm">
+            <div className="absolute top-3 right-3 inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-500/95 text-white text-[11px] font-semibold shadow-md backdrop-blur-sm z-10">
               <Sparkles className="w-3 h-3" />
               <span>Featured</span>
             </div>
           )}
+
+          {/* Project Title Banner at bottom of screenshot */}
+          <div className="absolute bottom-3 left-4 right-4 z-10">
+            <h4 className="font-heading font-bold text-lg text-white drop-shadow">
+              {project.name}
+            </h4>
+            <p className="text-xs text-slate-200 drop-shadow">
+              {project.role}
+            </p>
+          </div>
         </div>
 
         {/* Content Body */}

@@ -101,24 +101,31 @@ export function Hero() {
             <div className="relative w-full max-w-sm">
               {/* Outer decorative card */}
               <div className="relative rounded-3xl bg-gradient-to-br from-white via-white to-slate-50 p-6 shadow-xl border border-slate-200/80">
-                {/* Profile Placeholder Illustration / Image */}
-                <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-slate-800 via-primary to-slate-900 flex flex-col items-center justify-center text-white relative overflow-hidden group shadow-inner">
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                  
-                  {/* Stylized Avatar Icon */}
-                  <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-3">
-                    <Code2 className="w-12 h-12 text-sky-300" />
-                  </div>
-                  
-                  <span className="relative z-10 font-heading font-semibold text-lg">
-                    {personalData.name}
-                  </span>
-                  <span className="relative z-10 text-xs text-slate-300 mt-0.5">
-                    S1 Informatika UNIMUS
-                  </span>
+                {/* Profile Photo */}
+                <div className="w-full aspect-square rounded-2xl bg-slate-900 flex flex-col items-center justify-center text-white relative overflow-hidden group shadow-inner">
+                  {personalData.profilePhoto ? (
+                    <img
+                      src={personalData.profilePhoto}
+                      alt={personalData.name}
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <>
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+                      <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mb-3">
+                        <Code2 className="w-12 h-12 text-sky-300" />
+                      </div>
+                      <span className="relative z-10 font-heading font-semibold text-lg">
+                        {personalData.name}
+                      </span>
+                      <span className="relative z-10 text-xs text-slate-300 mt-0.5">
+                        S1 Informatika UNIMUS
+                      </span>
+                    </>
+                  )}
 
                   {/* Corner Badge */}
-                  <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-brand-500/80 backdrop-blur-md text-[10px] font-semibold text-white tracking-wider uppercase">
+                  <div className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-brand-500/90 backdrop-blur-md text-[10px] font-semibold text-white tracking-wider uppercase shadow-md">
                     Developer
                   </div>
                 </div>

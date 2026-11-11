@@ -95,6 +95,20 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
         {/* Scrollable Body */}
         <div className="p-6 sm:p-8 overflow-y-auto space-y-6 text-slate-700 text-sm leading-relaxed">
+          {/* Project Screenshot Banner */}
+          {project.thumbnailUrl && (
+            <div className="w-full h-64 sm:h-80 rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 shadow-sm relative">
+              <img
+                src={project.thumbnailUrl}
+                alt={project.name}
+                className="w-full h-full object-cover object-top"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = "/images/projects/placeholder.svg";
+                }}
+              />
+            </div>
+          )}
+
           {/* Achievement Callout if exists */}
           {project.achievement && (
             <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-start gap-3">

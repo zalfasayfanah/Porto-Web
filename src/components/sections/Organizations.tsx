@@ -5,7 +5,7 @@ import { Users2, Calendar, Award, CheckCircle } from "lucide-react";
 
 export function Organizations() {
   return (
-    <section id="organizations" className="py-20 bg-white border-b border-slate-200/60">
+    <section id="organizations" className="py-20 bg-slate-50 border-b border-slate-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Leadership & Collaboration"
