@@ -23,7 +23,7 @@ export function About() {
     {
       icon: Target,
       title: "Career Orientation",
-      description: "Berfokus pada posisi Web Developer, Web Developer Intern, dan Web Developer (Simulator).",
+      description: "Berfokus pada peran Full Stack, Frontend, maupun Backend Development.",
     },
   ];
 

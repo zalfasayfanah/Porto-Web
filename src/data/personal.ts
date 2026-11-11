@@ -9,7 +9,7 @@ export const personalData: PersonalInfo = {
   aboutText: [
     "Mahasiswa S1 Informatika Universitas Muhammadiyah Semarang dengan pengalaman praktis dalam pengembangan aplikasi web modern. Terbiasa memadukan ketelitian logika pemrograman dengan perancangan antarmuka yang intuitif dan berpusat pada pengguna.",
     "Menguasai ekosistem JavaScript, TypeScript, Next.js, Tailwind CSS, PHP, serta database Supabase dan MySQL. Berpengalaman sebagai Team Leader dalam proyek kolaboratif berbasis Agile Scrum, serta aktif mengintegrasikan AI tools untuk mengoptimalkan alur kerja pengembangan aplikasi.",
-    "Fokus berkarir sebagai Web Developer dan Web Developer (Simulator), siap berkontribusi dalam membangun aplikasi web yang handal, efisien, dan memberikan dampak nyata bagi pengguna.",
+    "Fokus berkarir dalam bidang Full Stack, Frontend, maupun Backend Development, siap berkontribusi dalam membangun aplikasi web yang handal, efisien, dan memberikan dampak nyata bagi pengguna.",
   ],
   email: "zalfaulislam@gmail.com",
   linkedin: "https://www.linkedin.com/in/zalfaulislam-sayfanah/",
