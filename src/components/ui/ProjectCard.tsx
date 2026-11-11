@@ -107,3 +107,4 @@ export function ProjectCard({ project, onViewDetails }: ProjectCardProps) {
     </div>
   );
 }
+

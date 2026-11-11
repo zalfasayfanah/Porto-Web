@@ -229,3 +229,4 @@
   - Document project overview, folder structure, how to edit data in `src/data/*.ts`, local development (`npm run dev`), and deployment to Netlify/Vercel.
 - [ ] **Step 6: Final commit**
   - `git add . && git commit -m "feat: complete personal portfolio website with full PRD compliance and build verification"`
+

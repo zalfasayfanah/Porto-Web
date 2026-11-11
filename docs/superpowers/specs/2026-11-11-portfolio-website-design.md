@@ -232,3 +232,4 @@ export interface CertificationItem {
 ## 7. Deployment Instructions
 - The application will be prepared with standard Next.js output ready for deployment to Netlify or Vercel.
 - Clear instructions will be supplied in `README.md` for running locally (`npm run dev`) and production builds (`npm run build`).
+
