@@ -22,7 +22,7 @@ export const educationData: EducationItem[] = [
     details: [
       "Pelatihan intensif 112 jam mencakup full-stack web development dan pemanfaatan AI tools.",
       "Mengembangkan Capstone Project: Sistem POS Kasir multi-cabang (Next.js, TypeScript, Supabase, Tailwind CSS).",
-      "Meraih Juara 1 Capstone Project dalam seleksi kompetisi bootcamp nasional.",
+      "Meraih Juara 1 Capstone Project.",
     ],
     isBootcamp: true,
   },

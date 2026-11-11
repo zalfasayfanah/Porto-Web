@@ -24,6 +24,7 @@ export const skillsData: SkillCategory[] = [
     title: "Database",
     skills: [
       { name: "Supabase" },
+      { name: "Firebase" },
       { name: "MySQL" },
     ],
   },
@@ -34,6 +35,7 @@ export const skillsData: SkillCategory[] = [
       { name: "GitHub" },
       { name: "Visual Studio Code" },
       { name: "Figma" },
+      { name: "Antigravity" },
     ],
   },
   {
