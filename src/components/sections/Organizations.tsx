@@ -5,7 +5,7 @@ import { Users2, Calendar, Award, CheckCircle, Mic, Sparkles } from "lucide-reac
 
 export function Organizations() {
   return (
-    <section id="organizations" className="py-20 bg-slate-50/85 backdrop-blur-[2px] border-b border-slate-200/60">
+    <section id="organizations" className="py-20 bg-transparent border-b border-slate-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Leadership & Communication"

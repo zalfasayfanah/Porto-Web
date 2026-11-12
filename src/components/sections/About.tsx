@@ -28,7 +28,7 @@ export function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white/85 backdrop-blur-[2px] border-y border-slate-200/60">
+    <section id="about" className="py-20 bg-transparent border-y border-slate-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="About Me"
@@ -37,8 +37,8 @@ export function About() {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          {/* Left Column: Narrative paragraphs */}
-          <div className="lg:col-span-7 space-y-5 text-slate-600 leading-relaxed text-base sm:text-lg">
+          {/* Left Column: Narrative paragraphs inside clean white card */}
+          <div className="lg:col-span-7 space-y-5 text-slate-600 leading-relaxed text-base sm:text-lg bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-sm">
             {personalData.aboutText.map((paragraph, index) => (
               <p key={index} className="text-justify sm:text-left">
                 {paragraph}

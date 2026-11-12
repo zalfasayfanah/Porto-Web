@@ -193,7 +193,7 @@ export function SparklesBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none z-20 w-full h-full"
+      className="fixed inset-0 pointer-events-none z-0 w-full h-full"
       aria-hidden="true"
     />
   );

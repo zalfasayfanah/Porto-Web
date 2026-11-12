@@ -27,7 +27,7 @@ export function Skills() {
   };
 
   return (
-    <section id="skills" className="py-20 bg-slate-50/85 backdrop-blur-[2px]">
+    <section id="skills" className="py-20 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Technical Skills"

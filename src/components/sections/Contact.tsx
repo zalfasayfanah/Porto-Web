@@ -24,7 +24,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white/85 backdrop-blur-[2px]">
+    <section id="contact" className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Get In Touch"

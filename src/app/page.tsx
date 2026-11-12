@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <SparklesBackground />
       <Navbar />
-      <main className="flex-1">
+      <main className="flex-1 relative z-10">
         <Hero />
         <About />
         <Skills />

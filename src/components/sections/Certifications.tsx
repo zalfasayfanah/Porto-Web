@@ -6,7 +6,7 @@ import { Award, ExternalLink, Calendar, Clock, ShieldCheck } from "lucide-react"
 
 export function Certifications() {
   return (
-    <section id="certifications" className="py-20 bg-slate-50/85 backdrop-blur-[2px] border-b border-slate-200/60">
+    <section id="certifications" className="py-20 bg-transparent border-b border-slate-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Credentials"
