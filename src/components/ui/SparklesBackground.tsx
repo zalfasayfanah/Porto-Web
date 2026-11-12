@@ -65,8 +65,8 @@ export function SparklesBackground() {
     window.addEventListener("mousemove", handleMouseMove, { passive: true });
     window.addEventListener("mouseleave", handleMouseLeave);
 
-    // Generate ~60-80 dynamic colorful particles
-    const particleCount = Math.min(Math.max(Math.floor((width * height) / 16000), 50), 90);
+    // Generate ~75-110 dynamic colorful particles distributed across screen
+    const particleCount = Math.min(Math.max(Math.floor((width * height) / 12000), 75), 115);
     const particles: Particle[] = [];
 
     const shapes: ("circle" | "bar" | "sparkle")[] = [
@@ -193,7 +193,7 @@ export function SparklesBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 pointer-events-none z-0 w-full h-full"
+      className="fixed inset-0 pointer-events-none z-20 w-full h-full"
       aria-hidden="true"
     />
   );
