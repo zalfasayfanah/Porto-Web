@@ -32,7 +32,7 @@ export function Hero() {
             {/* Name & Title */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold text-slate-900 tracking-tight leading-[1.15]">
               Hi, I&apos;m{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-blue-600 to-sky-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 via-pink-500 via-amber-500 to-emerald-500">
                 {personalData.name}
               </span>
             </h1>

@@ -58,12 +58,9 @@ export function Navbar() {
           {/* Logo / Brand Name */}
           <Link
             href="#hero"
-            className="flex items-center space-x-2 text-slate-900 group"
+            className="flex items-center group"
           >
-            <div className="w-8 h-8 rounded-lg bg-primary text-white flex items-center justify-center font-heading font-bold text-sm shadow-sm group-hover:bg-brand-600 transition-colors">
-              ZS
-            </div>
-            <span className="font-heading font-semibold text-lg tracking-tight group-hover:text-brand-600 transition-colors">
+            <span className="font-heading font-extrabold text-xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 via-pink-500 via-amber-500 to-emerald-500 hover:opacity-90 transition-opacity">
               {personalData.name}
             </span>
           </Link>
