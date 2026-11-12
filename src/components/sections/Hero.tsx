@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { ArrowDown, Download, Mail, Sparkles, Award, Code2, GraduationCap } from "lucide-react";
 import { personalData } from "@/data/personal";
+import { achievementsData } from "@/data/achievements";
 import { isValidUrl } from "@/lib/utils";
 
 export function Hero() {
@@ -90,7 +91,7 @@ export function Hero() {
                 <p className="text-xs text-slate-500 mt-0.5">Web Projects</p>
               </div>
               <div>
-                <p className="text-2xl font-heading font-bold text-slate-900">10</p>
+                <p className="text-2xl font-heading font-bold text-slate-900">{achievementsData.length}</p>
                 <p className="text-xs text-slate-500 mt-0.5">Achievements</p>
               </div>
             </div>

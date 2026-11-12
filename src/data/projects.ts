@@ -63,7 +63,7 @@ export const projectsData: ProjectItem[] = [
       "Menyusun dokumentasi sistem dan presentasi capstone",
     ],
     achievement:
-      "Best Overall, Best Team, Best Presentation, Best Project, Best Poster — RS UNIMUS Capstone 2026",
+      "Best Overall, Best Team, Best Presentation, Best Project, Best Poster — Informatics Capstone Project 2026",
     deploymentUrl: "https://eduhealth.informatikaunimus.id/",
     featured: true,
     thumbnailUrl: "/images/projects/eduhealth.png",

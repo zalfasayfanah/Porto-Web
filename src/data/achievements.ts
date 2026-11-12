@@ -12,7 +12,7 @@ export const achievementsData: AchievementItem[] = [
   {
     id: "ach-2",
     title: "Best Overall Project — EduHealth",
-    competition: "RS UNIMUS Project Collaboration",
+    competition: "Informatics Capstone Project",
     year: 2026,
     rank: "Best Overall",
     description: "Penghargaan karya terbaik secara keseluruhan atas pengembangan portal layanan dan edukasi kesehatan EduHealth.",
@@ -20,7 +20,7 @@ export const achievementsData: AchievementItem[] = [
   {
     id: "ach-3",
     title: "Best Team — EduHealth",
-    competition: "RS UNIMUS Project Collaboration",
+    competition: "Informatics Capstone Project",
     year: 2026,
     rank: "Best Team",
     description: "Kategori tim dengan kolaborasi, kedisiplinan Agile Scrum, dan pembagian tugas terunggul selama proyek berlangsung.",
@@ -28,7 +28,7 @@ export const achievementsData: AchievementItem[] = [
   {
     id: "ach-4",
     title: "Best Presentation — EduHealth",
-    competition: "RS UNIMUS Project Collaboration",
+    competition: "Informatics Capstone Project",
     year: 2026,
     rank: "Best Presentation",
     description: "Penyampaian demo produk dan arsitektur teknis paling komunikatif dan komprehensif di hadapan dewan penilai.",
@@ -36,7 +36,7 @@ export const achievementsData: AchievementItem[] = [
   {
     id: "ach-5",
     title: "Best Project — EduHealth",
-    competition: "RS UNIMUS Project Collaboration",
+    competition: "Informatics Capstone Project",
     year: 2026,
     rank: "Best Project",
     description: "Apresiasi terhadap keandalan fitur, kemudahan navigasi, dan relevansi solusi bagi kebutuhan rumah sakit.",
@@ -44,7 +44,7 @@ export const achievementsData: AchievementItem[] = [
   {
     id: "ach-6",
     title: "Best Poster — EduHealth",
-    competition: "RS UNIMUS Project Collaboration",
+    competition: "Informatics Capstone Project",
     year: 2026,
     rank: "Best Poster",
     description: "Desain poster infografis dan komunikasi visual teknis terbaik dalam pameran proyek.",
@@ -56,14 +56,6 @@ export const achievementsData: AchievementItem[] = [
     year: 2024,
     rank: "National Finalist",
     description: "Lolos seleksi nasional dan melaju ke panggung PIMNAS 37 melalui inovasi program PKM-PM AKSAWATRA.",
-  },
-  {
-    id: "ach-8",
-    title: "Juara 1 Desain Produk Inovasi UI/UX Mobile",
-    competition: "Elektro Expo Nasional",
-    year: 2024,
-    rank: "1st Place",
-    description: "Meraih juara pertama dalam perancangan prototipe UI/UX aplikasi mobile yang solutif dan berorientasi pengguna.",
   },
   {
     id: "ach-9",

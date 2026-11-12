@@ -20,5 +20,15 @@ export const organizationsData: OrganizationItem[] = [
       "Tim berhasil lolos seleksi nasional hingga menjadi Finalis pada Pekan Ilmiah Mahasiswa Nasional (PIMNAS) 37.",
     ],
   },
+  {
+    organization: "Public Speaking & Campus Events (FIKTD UNIMUS)",
+    role: "Master of Ceremonies (MC), Moderator & Orator",
+    period: "2024 — 2025",
+    description: [
+      "Master of Ceremonies (MC) pada Wisuda ke-50 Fakultas Ilmu Komputer dan Teknologi Digital.",
+      "Moderator pada agenda Masa Ta'aruf (MASTA) Fakultas Teknik dan Ilmu Komputer 2024.",
+      "Orator pada agenda Masa Ta'aruf (MASTA) Fakultas Teknik dan Ilmu Komputer 2025.",
+    ],
+  },
 ];
 

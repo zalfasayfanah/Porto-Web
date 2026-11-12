@@ -47,6 +47,7 @@ export const skillsData: SkillCategory[] = [
       { name: "UI/UX Design" },
       { name: "Functional Testing" },
       { name: "Debugging" },
+      { name: "Public Speaking & Communication" },
       { name: "AI-assisted Coding" },
     ],
   },
