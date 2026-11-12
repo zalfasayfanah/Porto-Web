@@ -34,7 +34,7 @@ export function Projects() {
   });
 
   return (
-    <section id="projects" className="py-20 bg-slate-50 border-b border-slate-200/60">
+    <section id="projects" className="py-20 bg-slate-50/85 backdrop-blur-[2px] border-b border-slate-200/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Featured Projects"

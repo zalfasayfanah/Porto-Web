@@ -21,7 +21,7 @@ export const organizationsData: OrganizationItem[] = [
     ],
   },
   {
-    organization: "Public Speaking & Campus Events (FIKTD UNIMUS)",
+    organization: "Public Speaking & Campus Events",
     role: "Master of Ceremonies (MC), Moderator & Orator",
     period: "2024 — 2025",
     description: [
